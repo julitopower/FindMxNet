@@ -32,7 +32,6 @@ After taking this steps the FindMxNet module will work as expected.
 This is the recommended way. In the root of your project, execute the following commands
 
 ```bash
-mkdir -p cmake/Modules
 git submodule add https://github.com/julitopower/FindMxNet cmake/Modules
 git submodule update --init --recursive
 ```
