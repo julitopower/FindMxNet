@@ -6,7 +6,7 @@
 # MxNet_LIB - The Mxnet .so path
 #
 # To develop C/C++ code with MxNet, its source code must be checked out and
-# compiled locally. This module works best if an environment varialbe
+# compiled locally. This module works best if an environment variable
 # called MXNET_ROOT is defined, and points to the root of MxNet source
 # code.
 ################################################################################
@@ -83,4 +83,3 @@ MARK_AS_ADVANCED(
     MxNet_INCLUDE_DIRS
     MxNet_LIB
 )
-
